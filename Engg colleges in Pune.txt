@@ -1,0 +1,22 @@
+4.Rajarshri Shahu college of Engg. Tathwade
+3.D.Y. Patil Akurdi
+11.Jspm Hadapsar
+2.Pimpri chinchwad college of Engineering 
+5.pune vidyarthi Grah.
+6.Sinhgadh Vadgaon
+7.VIIT Pune
+8.MIT alandi
+10.Jspm Wagholi
+1.PICT Pune 
+9.All India Shri Shivaji Memorial Society College of Engg. Shivaji Nagar
+
+
+selection Rule :
+
+Use above sequence as per numbering :
+
+add COMP,IT,ENTC each 
+1.Add TFWS for each:11*3=33 options(1to33)
+2.Add comp and IT simultaneously for each :1*2=22 options(33 to 55)
+3.Add ENTC to each :11*1(55to66)
+

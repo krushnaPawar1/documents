@@ -1,0 +1,3 @@
+Code for the Check whether the given subsequence are present or not in the given string.
+
+if-else, for, while, set, strings, list, tuple, dictionary, oops

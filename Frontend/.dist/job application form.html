@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application form </title>
+</head>
+<body>
+    <p>Job Application Form</p>
+    <label for="name">Name:</label><br><br>
+    <input type="text"  id="name"><br>
+<label for="emailid">EmailID:</label><br><br>
+<input type="email"  id="emailid"><br>
+<label for="phnno">PhoneNo.:</label><br><br>
+<input type="tel" name="" id="phnno">
+<br><br>
+<label for="res">Add Your resume here:</label>
+<input type="file" name="" id="res">
+<br><br>
+<label for="experience">experience:</label>
+<input type="number" min="0" max="45" value="0">
+<fieldset>
+    <legend>Skills</legend>
+    <input type="checkbox" name="" id="check1">
+    <label for="check1">HTML</label>
+    <input type="checkbox" name="" id="check2">
+    <label for="check1">CSS</label>
+    <input type="checkbox" name="" id="check3">
+    <label for="check1">Python</label>
+    <input type="checkbox" name="" id="check4">
+    <label for="check1">Javascript</label>
+</fieldset>
+
+<br>
+
+<label for="Occupation">Occupation:</label><br>
+<select name="" id="">
+    <option value="opt5" default="True">Choose Occupation</option>
+
+    <option value="opt1">Farmer</option>
+    <option value="opt2">army</option>
+    <option value="opt3">teacher</option>
+    <option value="opt4">buissiness Owner</option>
+
+</select>
+
+<br><br>
+<fieldset>
+<legend>Availability:</legend> 
+<input type="radio" name="kp" id="avl">
+<label for="avl">immediate</label><br>
+<input type="radio" name="kp" id="avl">
+<label for="avl">10 to 15 days</label>
+<br>
+<input type="radio" name="kp" id="avl">
+<label for="avl">1 months</label>
+<br>
+<input type="radio" name="kp" id="avl">
+<label for="avl">more than months</label>
+<br>
+
+</fieldset>
+<br>
+<label for="Additional info.">Comments:</label><br>
+<textarea name="info" id="Additional info." cols="70" rows="10"></textarea><br>
+
+<input type="button" value="Submit Application"> 
+</body>
+</html>
